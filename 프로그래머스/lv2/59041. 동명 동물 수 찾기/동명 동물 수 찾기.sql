@@ -10,5 +10,5 @@ WHERE A.COUNT>=2 AND A.NAME IS NOT NULL;
 -- 아래 링크와 참조 이미지 확인.
 -- https://school.programmers.co.kr/questions/28525
 
--- GROUP BY ~ HAVING ~ 과 집계함수 정리가 잘된 
+-- GROUP BY ~ HAVING ~ 과 집계함수 정리가 잘된 글
 -- https://tychejin.tistory.com/98
