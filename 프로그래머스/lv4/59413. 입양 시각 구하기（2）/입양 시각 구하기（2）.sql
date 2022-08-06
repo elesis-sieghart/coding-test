@@ -1,10 +1,10 @@
-WITH RECURSIVE TIME AS ( 
+WITH RECURSIVE time AS ( 
     SELECT 0 AS num                                  # Non-Recursive 문장( 첫번째 루프에서만 실행됨 )
     UNION ALL
-    SELECT num+1 AS num FROM TIME WHERE num+1<24     # Recursive 문장(읽어 올 때마다 행의 위치가 기억되어 다음번 읽어 올 때 다음 행으로 이동함)
+    SELECT num+1 AS num FROM time WHERE num+1<24     # Recursive 문장(읽어 올 때마다 행의 위치가 기억되어 다음번 읽어 올 때 다음 행으로 이동함)
 )
 SELECT T.num, COALESCE(H.COUNT, 0) 
-FROM TIME T
+FROM time T
 LEFT JOIN ( SELECT HOUR(DATETIME) HOUR, COUNT(DATETIME) COUNT
             FROM ANIMAL_OUTS
             GROUP BY HOUR
