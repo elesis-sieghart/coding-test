@@ -1,7 +1,7 @@
 WITH RECURSIVE time AS ( 
     SELECT 0 AS hour                                  # Non-Recursive 문장( 첫번째 루프에서만 실행됨 )
     UNION ALL
-    SELECT hour+1 AS hour FROM time WHERE hour+1<24     # Recursive 문장(읽어 올 때마다 행의 위치가 기억되어 다음번 읽어 올 때 다음 행으로 이동함)
+    SELECT hour+1 AS hour FROM time WHERE hour+1<24   # Recursive 문장(읽어 올 때마다 행의 위치가 기억되어 다음번 읽어 올 때 다음 행으로 이동함)
 )
 SELECT T.hour, COALESCE(H.COUNT, 0) 
 FROM time T
