@@ -150,6 +150,3 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
-
-![화면 캡처 2022-08-06 125000](https://user-images.githubusercontent.com/71251120/183232561-99eab721-eb2e-40d2-b97b-a1049b1d80d2.png)
-![화면 캡처 2022-08-06 124915](https://user-images.githubusercontent.com/71251120/183232564-e8d1e321-ca2e-463a-8563-3eb9e9feb715.png)
