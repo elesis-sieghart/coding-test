@@ -7,3 +7,4 @@ SELECT ANIMAL_TYPE, COUNT(*) count FROM ANIMAL_INS GROUP BY ANIMAL_TYPE ORDER BY
 -- (문제 조건: 고양이를 개보다 우선으로 표시)
 
 -- 위 처럼 GROUP BY ANIMAL_TYPE도 GROUP BY 1 형태로 사용 
+-- https://school.programmers.co.kr/questions/30827
