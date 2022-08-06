@@ -26,5 +26,5 @@ GROUP BY 1
 HAVING HOUR BETWEEN 9 AND 19
 ORDER BY 1
 
-
-
+-- MYSQL date and time document link
+-- https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_hour
