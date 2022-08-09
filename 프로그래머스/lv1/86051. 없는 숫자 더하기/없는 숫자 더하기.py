@@ -4,7 +4,7 @@ def solution(numbers):
         val = val - i
     return val
 
-
+# 다른 풀이들
 # sum
 def solution(numbers):
     return 45 - sum(numbers)
