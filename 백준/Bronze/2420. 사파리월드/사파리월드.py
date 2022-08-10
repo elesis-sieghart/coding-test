@@ -23,12 +23,6 @@ https://tech.devgear.co.kr/delphi_qna/451028
 
 '''
 Pascal ? C ?
-Pascal이 해결하려는 작업과 C가 해결하려는 작업이 달랐다.
-Pascal: 당시의 슈퍼컴퓨터 시스템 대상 -> 적은 수의 기관이 장비 보유, 학계의 지지기반으로 학생들을 가르치는데 쓰임.
-C: 전문적인 사용을 목표로 제작됨 -> 시스템 프로그래머가 시스템 프로그래밍을 수행하기위한 도구로 설계됨.
-Pascal은 세계적으로 왈가왈부되어 많은 아종 구현이 있었고 이는 QA적으로 좋지못했다.
-C는 심지어 Pascal의 기능들도 추가하며 성숙해졌다.
-Pascal은 결국 업계 필수 기능이 부족해 시스템언어로 사용하기 어려웠다.
-
-https://www.quora.com/What-is-the-difference-between-C-and-Pascal
+https://qr.ae/pv5PgY
+https://qr.ae/pv5PbT
 '''
