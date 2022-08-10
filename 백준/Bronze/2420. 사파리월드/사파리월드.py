@@ -12,9 +12,10 @@ C언어의 표준은 ANSI라는 이름의 미국 표준 협회에서 제정하�
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=skout123&logNo=50115714050
 
 Pascal, Delphi
-Pascal 출시 -> Pascal로 개발할 수 있는 델파이 IDE 출시(1990년대) -> 영향력이 강해진 IDE 개발사
+흐름: Pascal 출시 -> Pascal로 개발할 수 있는 델파이 IDE 출시(1990년대) -> 영향력이 강해진 IDE 개발사
 -> Pascal의 업그레이드 버전인 Object Pascal과는 별도로 IDE 개발사에서 Pascal에 독자적 기능을 업데이트(Object Pascal이라고 부르기 어려움) 
 -> 시간이 흐르며 Object Pascal과 구분하기위해 Delphi언어라 부르게됨 -> 결론은 Delphi는 언어이자 IDE 입니다.
+요약: 기본적인 문법은 파스칼 문법과 같지만 파스칼에 여러 기능들이 추가되어 현재는 델파이라는 언어로 존재
 https://tech.devgear.co.kr/delphi_qna/451028
 '''
 
