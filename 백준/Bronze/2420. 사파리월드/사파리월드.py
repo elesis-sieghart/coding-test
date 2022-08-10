@@ -17,3 +17,5 @@ Pascal 출시 -> Pascal로 개발할 수 있는 델파이 IDE 출시(1990년대)
 -> 시간이 흐르며 Object Pascal과 구분하기위해 Delphi언어라 부르게됨 -> 결론은 Delphi는 언어이자 IDE 입니다.
 https://tech.devgear.co.kr/delphi_qna/451028
 '''
+
+# 참고로 C(1972), C++(1983), Java(1995), C#(2000)
