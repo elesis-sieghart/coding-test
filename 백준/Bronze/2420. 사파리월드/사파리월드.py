@@ -9,6 +9,7 @@ print(abs(a-b))
 '''
 C99
 C언어의 표준은 ANSI라는 이름의 미국 표준 협회에서 제정하고, 이렇게 ANSI에서 제정한 C언어의 1999년도 최신 표준안을 가리켜 C99라고 한다.
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=skout123&logNo=50115714050
 
 Pascal, Delphi
 Pascal 출시 -> Pascal로 개발할 수 있는 델파이 IDE 출시(1990년대) -> 영향력이 강해진 IDE 개발사
