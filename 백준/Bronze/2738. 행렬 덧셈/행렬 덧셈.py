@@ -25,3 +25,19 @@ for i in range(len(arr1)):
 result = list(map(str, result))
 for i in range(N):
     print(' '.join(result[M*i:M*i+M]))
+
+# 다른사람들의 풀이 (29056KB 60ms)
+import sys; 
+
+input = lambda: sys.stdin.readline().rstrip()
+
+N, M = map(int, input().split())
+a = [list(map(int, input().split())) for _ in range(N)]
+b = [list(map(int, input().split())) for _ in range(N)]
+# r: row,c: column
+s = [[a[r][c] + b[r][c] for c in range(M)] for r in range(N)]
+for r in s :
+    print(' '.join(str(x) for x in r))
+    
+# ~ for _ in range(N)
+# _ 각각에대해 ~
