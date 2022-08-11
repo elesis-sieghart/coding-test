@@ -30,4 +30,12 @@ https://wikidocs.net/22#for-range_1:~:text=%3E%3E%3E%20result%20%3D%20%5Bnum%20*
 c = []
 for i in range(65, 91):
     c.append(s.count(chr(i)))
+
+# 아스키코드 함수들
+ord(): str -> ascii (A->65)
+chr(): ascii -> str (65->A)
+
+# find, index
+
+# count
 '''
