@@ -44,13 +44,14 @@ chr(): ascii -> str (65->A)
 '변수.find(찾을 문자, startIndex, endIndex)'
 '변수.index(찾을 문자, startIndex, endIndex)'
 
-차이점
 find: 없는 경우 (return: -1)
 index: 없는 경우 (ValueError)
+사용가능한 자료형 차이는 아래 링크 참조
 https://ooyoung.tistory.com/78
 
 # count
 문자열 안에서 찾고 싶은 문자의 개수 반환
 '변수.count(찾을 문자)'
+사용가능한 자료형 차이는 아래 링크 참조
 https://ooyoung.tistory.com/76
 '''
