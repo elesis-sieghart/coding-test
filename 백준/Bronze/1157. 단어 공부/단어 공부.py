@@ -52,6 +52,6 @@ https://ooyoung.tistory.com/78
 # count
 문자열 안에서 찾고 싶은 문자의 개수 반환
 '변수.count(찾을 문자)'
-사용가능한 자료형 차이는 아래 링크 참조
+사용가능한 자료형은 아래 링크 참조
 https://ooyoung.tistory.com/76
 '''
