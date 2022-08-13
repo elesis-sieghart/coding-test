@@ -14,3 +14,9 @@ if(abs(y-0)-abs(y-h)>0):
 else:
     y_min = y-0
 print(min(abs(x_min), abs(y_min)))
+
+# 다른 풀이 (29284KB 52ms)
+x, y, w, h = map(int,input().split())
+print(min(x, y, w-x, h-y))
+
+# 아이구 바보...ㅠ.ㅠ
