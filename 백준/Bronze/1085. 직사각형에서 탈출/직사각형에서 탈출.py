@@ -20,3 +20,4 @@ x, y, w, h = map(int,input().split())
 print(min(x, y, w-x, h-y))
 
 # 아이구 바보...ㅠ.ㅠ
+# 조건에 1 ≤ x ≤ w-1, 1 ≤ y ≤ h-1 봤었다면!!! 
