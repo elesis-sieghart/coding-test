@@ -1,10 +1,10 @@
-while True :
-    nums = list(map(int, input().split()))
-    if sum(nums) == 0:
-        break  # 세 수가 0이면 break
-    max_num = max(nums)
-    nums.remove(max_num)  # 빗변의 길이는 직각삼각형 세변의 길이중 가장 길다.
-    if nums[0]**2 + nums[1]**2 == max_num**2:
-        print('right')
-    else:
-        print('wrong')
+import sys
+
+while True:
+    val = list(map(int, sys.stdin.readline().strip().split()))
+
+    if len(val)==3 and val[0]==0 and val[1]==0 and val[2]==0:
+        break
+    maxNum = max(val)
+    val.remove(maxNum)
+    print('right') if val[0]**2 + val[1]**2 == maxNum**2 else print('wrong')
