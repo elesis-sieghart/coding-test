@@ -2,18 +2,18 @@ import sys
 # (x, y, w, h) => 현재 위치(x, y) => 사각형 (0, 0) ~ (w, h)
 x, y, w, h = map(int, sys.stdin.readline().strip().split())
 
-x_min = 0
+xMin = 0
 if(abs(x-0)-abs(x-w)>0):
-    x_min = x-w
+    xMin = x-w
 else:
-    x_min = x-0
+    xMin = x-0
 
-y_min = 0
+yMin = 0
 if(abs(y-0)-abs(y-h)>0):
-    y_min = y-h
+    yMin = y-h
 else:
-    y_min = y-0
-print(min(abs(x_min), abs(y_min)))
+    yMin = y-0
+print(min(abs(xMin), abs(yMin)))
 
 # 다른 풀이 (29284KB 52ms)
 x, y, w, h = map(int,input().split())
