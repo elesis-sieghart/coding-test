@@ -22,15 +22,15 @@ while True :
     else:
         print('wrong')
         
-# del, remove
+# del 예약어 : 인덱스로 삭제
+# remove( ) 함수 : 값으로 삭제 (첫번째 값만 삭제)
 '''
-del 예약어 : 인덱스로 삭제
-remove( ) 함수 : 값으로 삭제 (첫번째 값만 삭제)
-
 del arr[인덱스]
 del arr[3:]
 
 arr.remove('a')
+
+https://ooyoung.tistory.com/49
 '''
 
 # 파이썬 예약어 종류: del, if, for, or, and
