@@ -18,7 +18,7 @@ while 1:
 ...
 '''
 
-# 다른 풀이 (29056KB 56ms)
+# 다른 풀이 (29284KB 56ms)
 n = int(input())
 i = 1
 while(n>1):
