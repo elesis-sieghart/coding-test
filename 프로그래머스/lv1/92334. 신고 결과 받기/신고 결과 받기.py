@@ -48,5 +48,8 @@ def solution(id_list, report, k):
     return list(dic.values())
 
 # dictionary
+# keys(), items()
+
 # 이중 for문 줄이기
 # 한줄 for ~ if 만족하는 값을 list받기
+# https://leedakyeong.tistory.com/entry/python-for%EB%AC%B8-if%EB%AC%B8-%ED%95%9C-%EC%A4%84%EB%A1%9C-%EC%BD%94%EB%94%A9%ED%95%98%EA%B8%B0
