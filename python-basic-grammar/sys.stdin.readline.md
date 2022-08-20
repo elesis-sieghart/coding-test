@@ -17,6 +17,6 @@ https://yang-wistory1009.tistory.com/54
 
 
 ~ for _ in range(N)
-_ 각각에대해 ~
+_ 각각에대해 ~  
 
 
