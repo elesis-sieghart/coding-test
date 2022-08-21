@@ -12,10 +12,10 @@
 #### strip(): 왼쪽, 오른쪽 공백을 삭제
 
 ### lambda: sys.stdin.readline().rstrip()
-이와 같은 꼴로 자주 사용한다.
+이와 같은 꼴로 자주 사용한다.  
 
-https://yang-wistory1009.tistory.com/54
 
+[참고 링크](https://yang-wistory1009.tistory.com/54)
 
 ~ for _ in range(N)
 _ 각각에대해 ~  
