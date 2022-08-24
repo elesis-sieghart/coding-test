@@ -39,7 +39,7 @@ a = [1, 2, 3]
 a.remove(2) # [1, 3]
 a.remove(5) # ValueError
 ```
-### del과 index 혼합 사용시 remove 효과가 난다.
+#### del과 index 혼합 사용시 remove 효과가 난다.
 ```py
 a = [1, 2, 3]
 del a[a.index(2)] # [1, 3]
