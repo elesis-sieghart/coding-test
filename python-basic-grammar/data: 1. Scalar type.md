@@ -105,15 +105,3 @@ bool({})      # False
 bool([0])     # True
 bool({"a":0}) # True
 ```
-# Compound type
-두 개 이상의 값을 저장할 수 있는 데이터 타입
-
-## sequence
-### list
-### tuple
-
-## mapping
-### dict
-
-## set
-### set
