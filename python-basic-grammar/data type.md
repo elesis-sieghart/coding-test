@@ -42,10 +42,14 @@ float(True)  # 1.0
 float(False) # 0.0
 ```
 - int에는 없는 ```nan(Not a Number)```, ```inf(+무한)```, ```-inf(-무한)```으로 변환된다.
+- 무한수는 float에서만 사용 가능해서 int형 변환시 *OverflowError*가 발생한다.
 ```py
 float("nan")  # nan
-float("inf")  # inf
-float("-inf") # -inf
+float("inf")  ==  math.inf # True #  inf
+float("-inf") == -math.inf # True # -inf
+
+int(float("inf")) # OverflowError
+int(math.inf)     # OverflowError
 ```
 - 실수 + 정수 = 실수
 ```py
@@ -101,5 +105,15 @@ bool({})      # False
 bool([0])     # True
 bool({"a":0}) # True
 ```
-# Composite type
+# Compound type
 두 개 이상의 값을 저장할 수 있는 데이터 타입
+
+## sequence
+### list
+### tuple
+
+## mapping
+### dict
+
+## set
+### set
