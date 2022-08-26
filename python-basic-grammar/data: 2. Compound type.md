@@ -108,11 +108,33 @@ L += ['z']      # [1, 2, ['x', 'y'], 'z']
 
 L.insert(2, 3) # [1, 2, 3, ['x', 'y']]
 
-# 삭제 메소드
+# 삭제 메소드 : L.pop(), L.pop(i), L.remove(x)
+L.pop()     # 반환값: ['x', 'y'] # index 벗어날시 IndexError
+L.pop(-1)   # 반환값: 1       
 
+L.remove(2) # [1, ['x', 'y']]   # x가 존재하지 않을시 ValueError
 
-# 질의 메소드
-# 정렬 메소드
+L = ['a', 'b', ['a', 'b'], 'b']
+# 질의 메소드 : L.count(x), L.index(x, 시작번호, 끝번호)
+L.count('a')       # 1, 리스트 내의 리스트를 단일 객체로 보기 때문에 내부의 'a'는 확인 불가
+
+L.index('b', 1, 4) # 1 # x에 해당하는 가장 왼쪽 객체의 인덱스 반환
+L.index('b', 2, 4) # 3
+
+# 정렬 메소드 : L.reverse(), L.sort(key=None, reverse=False)
+L.reverse() # ['b', ['a', 'b'], 'b', 'a']
+
+L.sort()         # TypeError: not supported between instances of 'list' and 'str', 내부 리스트 비교 불가
+L.pop(2)         # ['a', 'b']
+L.sort()         # ['a', 'b', 'b']
+L.insert(1, 'A') # ['a', 'A', 'b', 'b']
+L.sort()         # ['A', 'a', 'b', 'b'] # Unicode상 대문자가 소문자보다 앞에 위치
+  # key로 대소문자 구분없이 정렬
+  L.sort(key=str.lower) # ['a', 'A', 'b', 'b'] # key 인자는 함수. # 대소문자 구분없이 모든 문자를 소문자로 바꾼 후 정렬.
+  # reverse의 디폴트값은 False로 오름차순. True 지정시 내림차순.
+  L.sort(reverse=True)  # ['b', 'b', 'a', 'A']
+  
+  # 정렬 방법: sort() 메소드 vs sorted() 함수
 ```
 
 ## Tuple Type
