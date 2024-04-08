@@ -8,19 +8,19 @@ dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
 
 def bfs(x, y):
-    rs =1 
+    rs = 1 
     q = deque()
     q.append((x, y))
     while q:
-        ey, ex = q.popleft()
+        ex, ey = q.popleft()
         for k in range(4):
-            ny = ey + dy[k]
             nx = ex + dx[k]
-            if 0<=ny<n and 0<=nx<n:
-                if graph[ny][nx] == 1 and chk[ny][nx] == False:
+            ny = ey + dy[k]
+            if 0<=nx<n and 0<=ny<n:
+                if graph[nx][ny] == 1 and chk[nx][ny] == False:
                     rs += 1
-                    chk[ny][nx] = True
-                    q.append((ny,nx))
+                    chk[nx][ny] = True
+                    q.append((nx, ny))
     return rs
 
 cnt = 0
